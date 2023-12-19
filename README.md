@@ -14,7 +14,7 @@ https://postgrado.ucsp.edu.pe/cursos/excel-estadistico-financiero-programacion-s
 
 ####Página de contenido de curso
 https://e.cayetano.edu.pe/programas/soporte-vital-de-trauma-prehospitalario-para-primer-respondiente-phtls-fr/
-![Alt text](assets/images/references/image1.png)
+![Alt text](assets/images/references/image-1.png)
 
 ##Página de Inicio
 usar la página de Cayetano
