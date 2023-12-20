@@ -1,0 +1,76 @@
+.container-info-course {
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr 0.3fr;
+    align-items: baseline;
+    justify-items: center;
+    gap: 20px;
+}
+
+
+.container-list-about {
+    height: 100%;
+    max-width: 100%;
+}
+
+.container-list-about.list-group {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+}
+
+.list-about-course {
+    text-decoration: none;
+    padding: 1.3rem;
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+.course-about-contacts {}
+
+.course-about-inscription {
+    background-color: #f5f7ff;
+    padding: 1rem;
+}
+
+.course-about-inscription h4 {
+    font-size: 1.1rem;
+}
+
+.w-button {
+    background-color: #deae5b;
+    font-size: 1.5rem;
+    font-family: "anekRegular";
+    font-weight: normal;
+    text-align: center;
+    margin: 0.25em 0;
+}
+
+@media only screen and (max-width: 904px) {
+    .container-info-course {
+        grid-template-columns: 0.3fr 1fr;
+    }
+
+    .course-about-contacts {
+        grid-column: 1 / -1;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container-info-course {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .container-list-about .list-group {
+        flex-direction: row;
+        min-width: 100%;
+        overflow-y: auto;
+        align-items: center;
+    }
+
+    .list-about-course {
+        font-size: 1.25rem;
+    }
+}
